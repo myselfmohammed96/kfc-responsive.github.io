@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC Rough | Order KFC Chicken Online & Find Restaurants</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navigation bar with the logo -->
+
+    <header class="Menu-Bar-container">
+        <div id="Ham-icon-container" >   <!--Hamburger icon at the top left -->
+            <div class="Ham-icon">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </div>
+        <div id="logo-container" class="menu">   <!-- Top Logo -->
+            <a href=""><img src="media/kfcLogo.492728c6.svg" /></a>
+        </div>
+
+        <div id="menu-container">   <!-- Menu and Deals option at the top -->
+            <nav id="nav-bar">
+                <a id="Menu" class="menu" href="">Menu</a>
+                <a id="Deals" class="menu" href="">Deals</a>
+            </nav>
+        
+            <div id="Signin-and-cart">
+
+                <a href="" id="signin"><div>   <!-- signin icon and text -->
+                    <img id="signinIcon" src="media/Account_Icon.svg" />
+                    <h5 id="signinText">Sign In</h5>
+                </div></a>
+
+                <a href="" id="cart"><div >   <!-- cart ₹ value and icon -->
+                    <h5 id="OrdVal">₹0</h5>
+                    <img id="cartIcon" src="media/bucket_cart_icon.svg" />
+                    <h5 id="iconCount">0</h5>
+                </div></a>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Hamburger menu -->
+ 
+<!-- id="showmenu" -->
+    <div  class="HB-menu " >
+        
+        <div id="HB-body">
+            <div id="HB-title">
+                <h1>LET'S GET COOKIN'</h1>
+            </div>
+            <div id="HB-signin">   <!-- signin option in hamburger menu -->
+                <a href="" id="signin"><div>
+                    <img id="HB-signinIcon" src="media/Account_Icon.svg" />
+                    <h5 id="signin-signup">Sign in / Sign up</h5><img id="HB-arrow" src="media/black_right_arrow.a801582c.svg" alt="">
+                </div></a>
+            </div>
+        </div>
+    </div>
+
+        <!-- Order Button bar at the middle : black colored -->
+    
+    <div class="OrderBtnBar">
+        <div id="ordstuffContainer">
+            <div id="ordtext">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</div>
+            <button id="ordbtn">Start Order</button>
+        </div>
+    </div>
+
+    <!-- KFC Banner image -->
+
+    <div class="Banner"><img id="banner-img-big" src="media/web_1440x396px.webp" ><img id="banner-img-small" src="media/kfc banner small.webp" alt=""></div>
+
+    <!-- content heading(browse) -->
+
+    <div class="Browse">
+        <div id="Browse-title">
+            <h1 id="BrowseHeading">BROWSE CATEGORIES</h1>
+        </div>
+        <div id="Horizontal-line">
+            <div id="Line"></div>
+        </div>
+    </div>
+
+    <!-- main content -->
+
+    <div id="main-area">
+        <div id="main-grid-container">
+            <a class="categories-link" href=""><div class="main-grid" id="main-grid-left">
+                <img src="media/CAT289.jpg">
+                <p class="cat-text inter-burger-fest">INTERNATIONAL BURGER FEST</p>
+            </div></a>
+            <a class="categories-link" href=""><div class="main-grid">
+                <img src="media/CAT287.jpg">
+                <p class="cat-text">MATCH DAY COMBOS</p>
+            </div></a>
+            <a class="categories-link" href=""><div class="main-grid">
+                <img src="media/CAT228.jpg">
+                <p class="cat-text">VALUE LUNCH SPECIALS</p>
+            </div></a>
+            <a class="categories-link" href=""><div class="main-grid">
+                <img src="media/CAT158.jpg">
+                <p class="cat-text">BOX MEALS</p>
+            </div></a>
+            <a class="categories-link" href=""><div class="main-grid">
+                <img src="media/CAT99.jpg">
+                <p class="cat-text">BURGERS</p>
+            </div></a>
+            <a class="categories-link" href=""><div class="main-grid">
+                <img src="media/CAT86.jpg">
+                <p class="cat-text">CHICKEN BUCKETS</p>
+            </div></a>
+            <a class="categories-link" href=""><div class="main-grid">
+                <img src="media/CAT213.jpg">
+                <p class="cat-text">RICE BOWLZ</p>
+            </div></a>
+            <a class="categories-link" href=""><div class="main-grid" id="f-l-g-option">
+                <img src="media/finger_lickin.fc21c805.svg">
+                <p class="cat-text view-all-menu">View All Menu <img src="media/black_right_arrow.a801582c.svg"/></p>
+            </div></a>
+        </div>
+    </div>
+
+    <!-- main 2 options -->
+
+    <div class="main-2">
+
+        <!-- 3 red strips at the left top corner of the black portion at the bottom -->
+        <div id="redstrips">
+            <div class="rs" id="s1"></div>
+            <div class="rs" id="s2"></div>
+            <div class="rs" id="s3"></div>
+        </div>
+
+        <div id="ex-vi-container">
+            <!-- "exclusive offers" heading -->
+            <div id="exclusive-offers">
+                <p>EXCLUSIVE OFFERS FOR YOU</p>
+            </div>
+
+            <!-- view all deals - tag -->
+            <div id="view-all-deals">
+                <p>View All Deals <img src="media/white arrow.jpg"> </p>
+            </div>
+        </div>
+    </div>
+
+     <!-- footer -->
+     <div id="footer">
+        <div id="footer-menu">
+            <div class="footer-column" id="kfc-footer-logo">
+                <a href=""><img id="footer-logo" src="media/KFC_Logo.svg"/></a>
+            </div>
+            
+            <!-- footer menu of the desktop version -->
+            
+            <div class="footer-column desktop-footer-menu" id="footer-about">
+                <div class="cla-list" id="about">
+                    <a href="" class="f-text">KFC India</a><br>
+                    <a href="" class="f-text">About KFC</a><br>
+                    <a href="" class="f-text">KFC Care</a><br>
+                    <a href="" class="f-text">Careers</a><br>
+                    <a href="" class="f-text">Our Golden Past</a><br>
+                    <a href="" class="f-text">Responsible Disclosure</a>
+                </div>
+            </div>
+            <div class="footer-column desktop-footer-menu" id="footer-terms">
+                <div class="cla-list" id="term">
+                    <a href="" class="f-text">Legal</a><br>
+                    <a href="" class="f-text">Terms and Conditions</a><br>
+                    <a href="" class="f-text">Privacy Policy</a><br>
+                    <a href="" class="f-text">Disclaimer</a><br>
+                    <a href="" class="f-text">Caution Notice</a><br>
+                </div>
+            </div>
+            <div class="footer-column desktop-footer-menu" id="footer-food">
+                <div class="cla-list" id="food">
+                    <a href="" class="f-text">KFC Food</a><br>
+                    <a href="" class="f-text">Menu</a><br>
+                    <a href="" class="f-text">Order Lookup</a><br>
+                    <a href="" class="f-text">Gift Card</a><br>
+                    <a href="" class="f-text">Nutrition & Allergen</a><br>
+                </div>
+            </div>
+            <div class="footer-column desktop-footer-menu" id="footer-contact">
+                <div class="cla-list" id="contact">
+                    <a href="" class="f-text">Support</a><br>
+                    <a href="" class="f-text">Get Help</a><br>
+                    <a href="" class="f-text">Contact Us</a><br>
+                    <a href="" class="f-text">KFC Feedback</a><br>
+                    <a href="" class="f-text">Privacy Policy</a><br>
+                </div>
+            </div>
+
+            <div class="footer-column  desktop-footer-menu" id="footer-location">
+                <a href="" ><img src="media/Find_KFC.svg" /></a>
+                <a href="" id="location">Find a KFC</a>
+            </div>
+            <div class="footer-column desktop-footer-menu" id="footer-playstore">
+                <a href=""><img src="media/google_play.svg" id="playstore"></a>
+            </div>
+            <div class="footer-column desktop-footer-menu" id="footer-appstore">
+                <a href=""><img src="media/apple.svg" id="appstore"></a>
+            </div>
+        </div>
+
+        <!-- footer menu of the mobile and tab version -->
+
+        <div id="m-v-footer">
+            <div id="m-v-footer-container">
+
+                <!-- KFC India menu -->
+
+                <div class="popup-selector" id="m-v-footer-menu"><p>KFC India</p><img src="media/footer menu down arrow.jpg"></div>
+                <div id="m-v-footer-menu-popup" class="popup-menu">
+                    <div class="m-v-footer-popup-elements"><p>About KFC</p></div>
+                    <div class="m-v-footer-popup-elements"><p>KFC Care</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Careers</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Our Golden Past</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Responsible Disclosure</p></div>
+                </div>
+
+                <!-- Legal menu -->
+
+                <div class="popup-selector" id="m-v-footer-menu"><p>Legal</p><img src="media/footer menu down arrow.jpg"></div>
+                <div id="m-v-footer-menu-popup" class="popup-menu">
+                    <div class="m-v-footer-popup-elements"><p>Terms and Conditions</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Privacy Policy</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Disclaimer</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Caution Notice</p></div>
+                </div>
+
+                <!-- KFC Food menu -->
+
+                <div class="popup-selector" id="m-v-footer-menu"><p>KFC Food</p><img src="media/footer menu down arrow.jpg"></div>
+                <div id="m-v-footer-menu-popup" class="popup-menu">
+                    <div class="m-v-footer-popup-elements"><p>Menu</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Order Lookup</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Gift Card</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Nutrition & Allergen</p></div>
+                </div>
+
+                <!-- Support menu -->
+
+                <div class="popup-selector" id="m-v-footer-menu"><p>Support</p><img src="media/footer menu down arrow.jpg"></div>
+                <div id="m-v-footer-menu-popup" class="popup-menu">
+                    <div class="m-v-footer-popup-elements"><p>Get Help</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Contact Us</p></div>
+                    <div class="m-v-footer-popup-elements"><p>KFC Feedback</p></div>
+                    <div class="m-v-footer-popup-elements"><p>Privacy Policy</p></div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- copyright and social media icons -->
+
+         <div id="footer-social-icons">
+            <p class="desktop-footer-menu">Copyright © KFC Corporation 2024 All rights reserved</p>
+            <div class="desktop-footer-menu">
+                <img src="media/Social_Insta_White.svg">
+                <img src="media/Social_Facebook_White.svg">
+                <img src="media/Social_Twitter_White.svg">
+            </div>
+         </div>
+
+    </div>
+
+    <!-- JavaScript link -->
+
+    <script src="script.js">  
+    </script>
+</body>
+</html>
